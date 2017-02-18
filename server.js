@@ -54,7 +54,7 @@ app.get('/projects', (req, res) => {
 
 app.get('/bad', (req, res) => {
 	res.send({
-		errorMessage: 'You really fucked up this time.'
+		errorMessage: 'You really messed up this time.'
 	});
 });
 
